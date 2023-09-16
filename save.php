@@ -16,15 +16,15 @@ foreach ($files as $file) {
 
     while (($row = fgetcsv($file)) !== FALSE) {
 
-        
+
         if (in_array("BANK", $row)) {
             continue;
             // skip row of csv
         } else {
-            echo '<pre>';
-            print_r($row);
-            echo '</pre>';
-          $bank_name = $row[0];
+            // echo '<pre>';
+            // print_r($row);
+            // echo '</pre>';
+            $bank_name = $row[0];
             $ifsc = $row[1];
             $branch = $row[2];
             $b_address = $row[3];
@@ -51,5 +51,3 @@ foreach ($files as $file) {
     }
     fclose($file);
 }
-?>
-
