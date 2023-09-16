@@ -4,7 +4,7 @@
 $dbHost     = "localhost"; 
 $dbUsername = "root"; 
 $dbPassword = ""; 
-$dbName     = "Demo"; 
+$dbName     = "csvimporter"; 
 
 // Create database connection 
 $conn = mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);
