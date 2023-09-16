@@ -4,7 +4,7 @@
 $dbHost     = "localhost"; 
 $dbUsername = "root"; 
 $dbPassword = ""; 
-$dbName     = "ebalafpv_dev"; 
+$dbName     = "Demo"; 
 
 // Create database connection 
 $conn = mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);

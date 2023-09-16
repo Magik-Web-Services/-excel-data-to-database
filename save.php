@@ -3,7 +3,7 @@
 include('conn.php');
 
 // Insert Data
-$csvFilePath = "Variable product with parent sku - Página4.csv";
+$csvFilePath = "ipad model detail.csv";
 $file = fopen($csvFilePath, "r");
 
 while (($row = fgetcsv($file)) !== FALSE) {
