@@ -36,7 +36,8 @@
 </head>
 
 <body>
-    <button><a href="save.php">Import</a></button>
+    <button><a href="save.php">Import By folder</a></button>
+    <button><a href="saveOne.php">Import By File</a></button>
 </body>
 
 </html>

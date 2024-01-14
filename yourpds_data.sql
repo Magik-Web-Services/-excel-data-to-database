@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `yourpds_data` (
   `generation` varchar(255) NOT NULL,
   `model_number` varchar(255) NOT NULL,
   `yourpds` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
